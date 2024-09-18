@@ -1,0 +1,70 @@
+/* Hero.css */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  /* background: #f4f4f9; */
+}
+
+.hero-text p {
+  font-size: 18px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  /* margin-bottom: 10px; */
+}
+
+.hero-text .brand {
+  color: #ff007f;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cta-btn {
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.hero-image img {
+  max-width: 600px;
+  border-radius: 20px;
+  /* margin-left: 300px; */
+  position: relative;
+  margin-right: 6rem;
+}
+
+.badges {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.badge {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.badge p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.badge span {
+  color: #888;
+}

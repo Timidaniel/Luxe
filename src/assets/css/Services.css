@@ -1,0 +1,34 @@
+.services-section {
+  text-align: center;
+  margin-right: 36rem;
+}
+
+.services-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  margin-right: 24rem;
+}
+
+.service-cards {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 20px;
+}
+
+.service-card {
+  /* background: #fff; */
+  padding: 20px;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 250px;
+  text-align: center;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.service-card p {
+  color: #666;
+}

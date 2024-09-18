@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+nav {
+  justify-content: end;
+}
+.luxe {
+  margin-left: 80px;
+  color: #dc0155;
+}
+header img {
+  margin-right: 80px;
+}
